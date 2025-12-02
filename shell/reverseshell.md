@@ -2,3 +2,7 @@
 
 ### reference
 https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/
+
+```
+nc -nvlp <port> -s <VPN_interface_IP>
+```

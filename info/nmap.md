@@ -22,3 +22,8 @@ Look for common web ports:
 443 (HTTPS)
 3000, 8000, 8080, 8888 (Common Node.js development ports)
 8443 (Alternative HTTPS)
+
+target port scan
+```
+nmap -sS -sV -p 4505,4506 <target_ip>
+```
